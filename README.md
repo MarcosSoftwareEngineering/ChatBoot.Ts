@@ -63,7 +63,7 @@ npm start     # Roda a versão compilada em produção
 ✅ Escuta de mensagens recebidas
 
 ⬜ Respostas dinâmicas a comandos
-
+---
 ## 👨‍💻 Autor
 Desenvolvido com dedicação e foco em Clean Code.  
 
