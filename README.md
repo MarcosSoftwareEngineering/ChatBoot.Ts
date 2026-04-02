@@ -22,60 +22,82 @@ Projetado com foco em **performance**, **escalabilidade** e **código limpo**, f
 
 Antes de começar, garanta que você possui:
 
-- **Node.js** (v18 ou superior recomendado)  
-- **npm** ou **yarn**  
+- **Node.js** (v18 ou superior recomendado)
+- **npm** ou **yarn**
 - Uma conta ativa no WhatsApp (preferencialmente um número de testes)
 
 ---
 
 ## 🛠️ Instalação e Configuração
 
-1. Clone o repositório e acesse a pasta do projeto.  
-2. Instale as dependências:
+**1. Clone o repositório e acesse a pasta do projeto:**
+
+```bash
+git clone https://github.com/MarcosSoftwareEngineering/<seu-repositorio>.git
+cd <seu-repositorio>
+```
+
+**2. Instale as dependências:**
 
 ```bash
 npm install
+```
+
+**3. Configure as variáveis de ambiente:**
+
+```bash
 cp .env.example .env
-Execute em modo desenvolvimento:
+```
 
-bash
-npm run dev
-Para produção:
+**4. Execute em modo desenvolvimento:**
 
-bash
-npm run build
-npm start
-📱 Autenticação (Primeiro Acesso)
-Na primeira execução, será exibido um QR Code no terminal:
+```bash
+npx ts-node-dev src/index.ts
+```
 
-Abra o WhatsApp no celular.
+**5. Para produção, compile e inicie:**
 
-Vá em Aparelhos Conectados → Conectar um aparelho.
-
-Escaneie o QR Code para autenticar.
-
-⚠️ As credenciais ficam salvas em .wwebjs_auth (não versionar no Git por segurança).
-
-📜 Scripts Disponíveis
-npm run dev   # Executa em modo desenvolvimento (TypeScript)
-npm run build # Transpila o código para JavaScript (pasta /dist)
-npm start     # Roda a versão compilada em produção
-
-🎯 Funcionalidades
-✅ Autenticação via QR Code
-
-✅ Escuta de mensagens recebidas
-
-⬜ Respostas dinâmicas a comandos
-
-👨‍💻 Autor
-Desenvolvido com dedicação e foco em Clean Code.
-
-https://marcos-dev-zeta.vercel.app/  
-https://www.linkedin.com/in/marcos-vinicius-souza-silva-29025a294/  
-https://github.com/MarcosSoftwareEngineering
+```bash
+npx tsc
+node dist/index.js
+```
 
 ---
 
+## 📱 Autenticação (Primeiro Acesso)
 
+Na primeira execução, será exibido um QR Code no terminal:
 
+1. Abra o **WhatsApp** no celular.
+2. Vá em **Aparelhos Conectados** → **Conectar um aparelho**.
+3. Escaneie o **QR Code** para autenticar.
+
+> ⚠️ As credenciais ficam salvas em `.wwebjs_auth` — **não versionar no Git por segurança** (adicione ao `.gitignore`).
+
+---
+
+## 📜 Scripts Disponíveis
+
+```bash
+npx ts-node-dev src/index.ts   # Executa em modo desenvolvimento (TypeScript)
+npx tsc                         # Transpila o código para JavaScript (pasta /dist)
+node dist/index.js              # Roda a versão compilada em produção
+```
+
+---
+
+## 🎯 Funcionalidades
+
+- ✅ Autenticação via QR Code
+- ✅ Escuta de mensagens recebidas
+- ⬜ Respostas dinâmicas a comandos
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido com dedicação e foco em **Clean Code**.
+
+- 🌐 [Portfolio](https://marcos-dev-zeta.vercel.app/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/marcos-vinicius-souza-silva-29025a294/)
+- 🐙 [GitHub](https://github.com/MarcosSoftwareEngineering)
