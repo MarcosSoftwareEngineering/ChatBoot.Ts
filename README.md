@@ -64,6 +64,7 @@ npm start     # Roda a versão compilada em produção
 
 ⬜ Respostas dinâmicas a comandos
 ---
+
 ## 👨‍💻 Autor
 Desenvolvido com dedicação e foco em Clean Code.  
 
