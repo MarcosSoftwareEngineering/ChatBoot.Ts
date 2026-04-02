@@ -37,12 +37,14 @@ Antes de começar, garanta que você possui:
 npm install
 cp .env.example .env
 Execute em modo desenvolvimento:
-npm run dev
 
+bash
+npm run dev
 Para produção:
+
+bash
 npm run build
 npm start
-
 📱 Autenticação (Primeiro Acesso)
 Na primeira execução, será exibido um QR Code no terminal:
 
@@ -54,6 +56,7 @@ Escaneie o QR Code para autenticar.
 
 ⚠️ As credenciais ficam salvas em .wwebjs_auth (não versionar no Git por segurança).
 
+📜 Scripts Disponíveis
 npm run dev   # Executa em modo desenvolvimento (TypeScript)
 npm run build # Transpila o código para JavaScript (pasta /dist)
 npm start     # Roda a versão compilada em produção
@@ -63,12 +66,19 @@ npm start     # Roda a versão compilada em produção
 ✅ Escuta de mensagens recebidas
 
 ⬜ Respostas dinâmicas a comandos
+
+👨‍💻 Autor
+Desenvolvido com dedicação e foco em Clean Code.
+
+https://marcos-dev-zeta.vercel.app/  
+https://www.linkedin.com/in/marcos-vinicius-souza-silva-29025a294/  
+https://github.com/MarcosSoftwareEngineering
+
 ---
 
-## 👨‍💻 Autor
-Desenvolvido com dedicação e foco em Clean Code.  
+✅ Agora sim:  
+- Todos os blocos de código estão fechados corretamente.  
+- Os comandos aparecem com syntax highlight (`bash`).  
+- Os links do Autor estão como **botões clicáveis** (badges).  
 
-[![Portfólio](https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://marcos-dev-zeta.vercel.app/)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcos-vinicius-souza-silva-29025a294/)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarcosSoftwareEngineering)
-
+Quer que eu adicione também um **exemplo de código TypeScript (`index.ts`)** mostrando como o bot responde mensagens, para enriquecer ainda mais o README?
