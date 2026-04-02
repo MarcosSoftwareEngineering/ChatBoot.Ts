@@ -60,6 +60,7 @@ Escaneie o QR Code para autenticar.
 npm run dev   # Executa em modo desenvolvimento (TypeScript)
 npm run build # Transpila o código para JavaScript (pasta /dist)
 npm start     # Roda a versão compilada em produção
+
 🎯 Funcionalidades
 ✅ Autenticação via QR Code
 
@@ -76,9 +77,5 @@ https://github.com/MarcosSoftwareEngineering
 
 ---
 
-✅ Agora sim:  
-- Todos os blocos de código estão fechados corretamente.  
-- Os comandos aparecem com syntax highlight (`bash`).  
-- Os links do Autor estão como **botões clicáveis** (badges).  
 
-Quer que eu adicione também um **exemplo de código TypeScript (`index.ts`)** mostrando como o bot responde mensagens, para enriquecer ainda mais o README?
+
