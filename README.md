@@ -25,103 +25,39 @@ Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas em su
 
 ## 🛠️ Instalação e Configuração
 
-**1. Clone o repositório:**
-```bash
-git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
-cd NOME_DO_REPOSITORIO
+## 🛠️ Instalação e Configuração
 
-2. Instale as dependências:
-
-npm install
-
-3. Configure o ambiente de desenvolvimento:
-(Se o seu projeto usar um arquivo .env, explique aqui como copiá-lo. Ex: cp .env.example .env)
-💻 Como Rodar o Projeto
-Ambiente de Desenvolvimento
-Para iniciar o projeto com recarregamento automático (ideal para codar):
-
-npm run dev
-
-Ambiente de Produção
-
-Para compilar o TypeScript e rodar a versão otimizada em JavaScript:
-
-npm run build
-npm start
-
-📱 Autenticação (Primeiro Acesso)
-Na primeira vez que você rodar o projeto, o terminal irá gerar um QR Code.
-
-Abra o WhatsApp no seu celular.
-
-Vá em Aparelhos Conectados > Conectar um aparelho.
-
-Escaneie o QR Code no terminal para autenticar a sessão. As credenciais serão salvas na pasta (ignorada pelo git) .wwebjs_auth.
-
-📜 Scripts Disponíveis (package.json)
-npm run dev: Inicia o servidor em modo de desenvolvimento.
-
-npm run build: Transpila o código de TypeScript (/src) para JavaScript (na pasta de destino, ex: /dist).
-
-npm start: Inicia a aplicação já compilada para produção.
-
-🎯 Funcionalidades Atuais
-[x] Autenticação via QR Code no terminal.
-
-[x] Escuta de mensagens recebidas.
-
-[ ] Responder a comandos específicos (ex: !ping, !ajuda). (Edite com as suas funções reais)
-
-Desenvolvido com dedicação e foco em Clean Code.
-🔗 Meu Portfólio / LinkedIn
-
-Markdown
 **2. Instale as dependências:**
 ```bash
 npm install
-3. Configure o ambiente de desenvolvimento:
-(Se o seu projeto usar variáveis de ambiente, crie o arquivo baseado no exemplo)
 
-Bash
 cp .env.example .env
-💻 Como Rodar o Projeto
-Ambiente de Desenvolvimento
-Para iniciar o projeto com recarregamento automático (ideal para codar):
 
-Bash
 npm run dev
-(Nota: Certifique-se de que o script "dev": "ts-node src/index.ts" ou similar esteja configurado no seu package.json)
 
-Ambiente de Produção
-Para compilar o TypeScript e rodar a versão otimizada em JavaScript:
-
-Bash
 npm run build
 npm start
-📱 Autenticação (Primeiro Acesso)
-Na primeira vez que você rodar o projeto, o terminal irá gerar um QR Code.
 
-Abra o WhatsApp no seu celular.
+## 📱 Autenticação (Primeiro Acesso)
+Na primeira vez que você rodar o projeto, o terminal irá gerar um **QR Code**.
 
-Vá em Aparelhos Conectados > Conectar um aparelho.
+1. Abra o WhatsApp no seu celular.
+2. Vá em **Aparelhos Conectados** > **Conectar um aparelho**.
+3. Escaneie o QR Code no terminal para autenticar a sessão.
+> **Aviso:** As credenciais serão salvas na pasta `.wwebjs_auth`, que deve ser ignorada pelo git por questões de segurança.
 
-Escaneie o QR Code no terminal para autenticar a sessão.
+## 📜 Scripts Disponíveis (`package.json`)
+* `npm run dev`: Inicia o servidor em modo de desenvolvimento via TypeScript.
+* `npm run build`: Transpila o código de TypeScript (`/src`) para JavaScript (na pasta de destino, ex: `/dist`).
+* `npm start`: Inicia a aplicação já compilada para produção em Node.js puro.
 
-Aviso: As credenciais serão salvas na pasta .wwebjs_auth, que deve ser ignorada pelo git por questões de segurança.
+## 🎯 Funcionalidades Atuais
+- [x] Autenticação via QR Code no terminal.
+- [x] Escuta de mensagens recebidas.
+- [ ] Responder a comandos dinâmicos.
 
-📜 Scripts Disponíveis (package.json)
-npm run dev: Inicia o servidor em modo de desenvolvimento via TypeScript.
+---
 
-npm run build: Transpila o código de TypeScript (/src) para JavaScript (na pasta de destino, ex: /dist).
+**Desenvolvido com dedicação e foco em Clean Code.**
+🔗 [Portfólio](https://marcos-dev-zeta.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/marcos-vinicius-souza-silva-29025a294/) | [GitHub](https://github.com/MarcosSoftwareEngineering)
 
-npm start: Inicia a aplicação já compilada para produção em Node.js puro.
-
-🎯 Funcionalidades Atuais
-[x] Autenticação via QR Code no terminal.
-
-[x] Escuta de mensagens recebidas.
-
-[ ] Responder a comandos dinâmicos.
-
-Desenvolvido com dedicação e foco em Clean Code.
-🔗 Portfólio | LinkedIn | GitHub
