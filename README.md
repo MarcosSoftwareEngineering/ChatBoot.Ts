@@ -64,19 +64,10 @@ npm start     # Roda a versão compilada em produção
 
 ⬜ Respostas dinâmicas a comandos
 
-👨‍💻 Autor
-Desenvolvido com dedicação e foco em Clean Code.
+## 👨‍💻 Autor
+Desenvolvido com dedicação e foco em Clean Code.  
 
-https://marcos-dev-zeta.vercel.app/  
-https://www.linkedin.com/in/marcos-vinicius-souza-silva-29025a294/  
-https://github.com/MarcosSoftwareEngineering
+[![Portfólio](https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://marcos-dev-zeta.vercel.app/)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcos-vinicius-souza-silva-29025a294/)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarcosSoftwareEngineering)
 
-
----
-
-✅ Agora está tudo corrigido:  
-- Os blocos de código estão fechados corretamente.  
-- Os comandos têm syntax highlight (`bash`).  
-- Os links do **Portfólio, LinkedIn e GitHub** aparecem como **botões clicáveis**.  
-
-Quer que eu adicione também um **exemplo de código TypeScript (`index.ts`)** dentro do README para mostrar como o bot responde mensagens na prática?
