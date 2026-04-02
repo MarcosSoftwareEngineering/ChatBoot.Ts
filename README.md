@@ -46,6 +46,9 @@ npm start     # Roda a versão compilada em produção
 
 ⬜ Respostas dinâmicas a comandos
 
+
+---
+
 ## 👨‍💻 Autor
 Desenvolvido com dedicação e foco em Clean Code.  
 🔗 [Portfólio](https://marcos-dev-zeta.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/marcos-vinicius-souza-silva-29025a294/) | [GitHub](https://github.com/MarcosSoftwareEngineering)
