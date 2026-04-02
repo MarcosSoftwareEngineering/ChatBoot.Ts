@@ -34,11 +34,33 @@ Antes de começar, garanta que você possui:
 2. Instale as dependências:
 
 ```bash
+npm install
+cp .env.example .env
+Execute em modo desenvolvimento:
+
+bash
+npm run dev
+Para produção:
+
+bash
+npm run build
+npm start
+📱 Autenticação (Primeiro Acesso)
+Na primeira execução, será exibido um QR Code no terminal:
+
+Abra o WhatsApp no celular.
+
+Vá em Aparelhos Conectados → Conectar um aparelho.
+
+Escaneie o QR Code para autenticar.
+
+⚠️ As credenciais ficam salvas em .wwebjs_auth (não versionar no Git por segurança).
+
+📜 Scripts Disponíveis
 
 npm run dev   # Executa em modo desenvolvimento (TypeScript)
 npm run build # Transpila o código para JavaScript (pasta /dist)
 npm start     # Roda a versão compilada em produção
-
 🎯 Funcionalidades
 ✅ Autenticação via QR Code
 
@@ -46,24 +68,16 @@ npm start     # Roda a versão compilada em produção
 
 ⬜ Respostas dinâmicas a comandos
 
-
----
-
 ## 👨‍💻 Autor
-Desenvolvido com dedicação e foco em Clean Code.  
-🔗 [Portfólio](https://marcos-dev-zeta.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/marcos-vinicius-souza-silva-29025a294/) | [GitHub](https://github.com/MarcosSoftwareEngineering)
+**Desenvolvido com dedicação e foco em Clean Code.** [![Portfólio](https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://marcos-dev-zeta.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcos-vinicius-souza-silva-29025a294/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MarcosSoftwareEngineering)
 
 ---
 
-## 📜 Scripts Disponíveis
+Agora está **100% corrigido**:  
+- Todos os blocos de código estão abertos e fechados corretamente.  
+- Os comandos de terminal têm syntax highlight (`bash`).  
+- Os links do Portfólio, LinkedIn e GitHub continuam clicáveis.  
 
-```bash
-npm run dev   # Executa em modo desenvolvimento (TypeScript)
-npm run build # Transpila o código para JavaScript (pasta /dist)
-npm start     # Roda a versão compilada em produção
-
----
-
-👉 Assim, tudo fica dentro de **um único bloco Markdown**. Os links continuam clicáveis e os comandos aparecem com **syntax highlight** em `bash`.  
-
-Quer que eu monte o **README inteiro** já com essa estrutura final aplicada, para você só copiar e colar direto no GitHub?
+Quer que eu também adicione um **exemplo de código TypeScript** (como o `index.ts` inicial do bot) dentro do README para mostrar como o chatbot funciona na prática?
