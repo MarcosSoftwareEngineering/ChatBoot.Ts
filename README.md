@@ -46,7 +46,21 @@ npm start     # Roda a versão compilada em produção
 
 ⬜ Respostas dinâmicas a comandos
 
-👨‍💻 Autor
-Desenvolvido com dedicação e foco em Clean Code. 🔗 Portfólio | LinkedIn | GitHub
+## 👨‍💻 Autor
+Desenvolvido com dedicação e foco em Clean Code.  
+🔗 [Portfólio](https://marcos-dev-zeta.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/marcos-vinicius-souza-silva-29025a294/) | [GitHub](https://github.com/MarcosSoftwareEngineering)
 
-Assim que você colar isso, os links do seu Portfólio, LinkedIn e GitHub voltarão a ser botões totalmente clicáveis, e os comandos de terminal ficarão com a cor certinha!
+---
+
+## 📜 Scripts Disponíveis
+
+```bash
+npm run dev   # Executa em modo desenvolvimento (TypeScript)
+npm run build # Transpila o código para JavaScript (pasta /dist)
+npm start     # Roda a versão compilada em produção
+
+---
+
+👉 Assim, tudo fica dentro de **um único bloco Markdown**. Os links continuam clicáveis e os comandos aparecem com **syntax highlight** em `bash`.  
+
+Quer que eu monte o **README inteiro** já com essa estrutura final aplicada, para você só copiar e colar direto no GitHub?
