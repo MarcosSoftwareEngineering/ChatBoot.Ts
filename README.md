@@ -47,11 +47,6 @@ npm start     # Roda a versão compilada em produção
 ⬜ Respostas dinâmicas a comandos
 
 👨‍💻 Autor
-Desenvolvido com dedicação e foco em Clean Code.  
-🔗 Portfólio | LinkedIn | GitHub
+Desenvolvido com dedicação e foco em Clean Code. 🔗 Portfólio | LinkedIn | GitHub
 
----
-
-Agora cada bloco de código tem **syntax highlight** (`bash`), deixando os comandos coloridos e fáceis de identificar.  
-
-Quer que eu também aplique **highlight para JSON e TypeScript** (por exemplo, no `package.json` e em trechos de código do bot) para deixar o README ainda mais completo?
+Assim que você colar isso, os links do seu Portfólio, LinkedIn e GitHub voltarão a ser botões totalmente clicáveis, e os comandos de terminal ficarão com a cor certinha!
