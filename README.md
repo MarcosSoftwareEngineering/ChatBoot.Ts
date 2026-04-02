@@ -35,28 +35,9 @@ Antes de começar, garanta que você possui:
 
 ```bash
 
-npm run dev
-
-npm run build
-npm start
-
-📱 Autenticação (Primeiro Acesso)
-Na primeira execução, será exibido um QR Code no terminal:
-
-Abra o WhatsApp no celular.
-
-Vá em Aparelhos Conectados → Conectar um aparelho.
-
-Escaneie o QR Code para autenticar.
-
-⚠️ As credenciais ficam salvas em .wwebjs_auth (não versionar no Git por segurança).
-
-📜 Scripts Disponíveis
-npm run dev → Executa em modo desenvolvimento (TypeScript).
-
-npm run build → Transpila o código para JavaScript (pasta /dist).
-
-npm start → Roda a versão compilada em produção.
+npm run dev   # Executa em modo desenvolvimento (TypeScript)
+npm run build # Transpila o código para JavaScript (pasta /dist)
+npm start     # Roda a versão compilada em produção
 
 🎯 Funcionalidades
 ✅ Autenticação via QR Code
@@ -69,9 +50,8 @@ npm start → Roda a versão compilada em produção.
 Desenvolvido com dedicação e foco em Clean Code.  
 🔗 Portfólio | LinkedIn | GitHub
 
-
 ---
 
-Agora sim está todo em **Markdown**. Quer que eu também prepare uma versão em **inglês** para deixar seu README mais internacional?
-npm install
-cp .env.example .env
+Agora cada bloco de código tem **syntax highlight** (`bash`), deixando os comandos coloridos e fáceis de identificar.  
+
+Quer que eu também aplique **highlight para JSON e TypeScript** (por exemplo, no `package.json` e em trechos de código do bot) para deixar o README ainda mais completo?
